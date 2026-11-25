@@ -25,7 +25,7 @@ if not GOOGLE_API_KEY:
 # Configure Gemini
 gen_ai.configure(api_key=GOOGLE_API_KEY)
 
-model = gen_ai.GenerativeModel("gemini-2.5-flash")
+model = gen_ai.GenerativeModel("gemini-3.8-flash")
 
 st.title("🤖 Gemini AI Chatbot")
 st.caption("Chat with Google's Gemini AI")
